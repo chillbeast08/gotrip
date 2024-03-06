@@ -3,11 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>gotrip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
@@ -23,13 +32,100 @@
           </ul>
         </nav>
       </div>
-    <div class="header__title">
-      <h1>GoTrip</h1>
-      <p>travel comfortably with us</p>
-    <button>More</button>
-    </div>
+      <div class="header__title">
+        <h1>GoTrip</h1>
+        <p>travel comfortably with us</p>
+        <button>More</button>
+      </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="main">
+      <div class="container">
+        <h2 class="main__heading">About us</h2>
+        <div class="main__desc">
+          <div class="main__descpic">
+            <img src="./img/descpic.jpg" alt="descpic" />
+          </div>
+          <p class="main__desctxt">
+            Go trip - a store for lovers of outdoor activities. Here you will
+            find everything you need for a safe trip to nature, climbing
+            mountains and much more. We have been working since 2003, we provide
+            everything necessary for large expeditions, small groups of
+            tourists, as well as those who just like to travel in comfort.
+            <br /><br />
+            Safety is above all! Before you go hiking, you need to protect
+            yourself from injury, overheating or frostbite, which is why special
+            equipment is needed.
+          </p>
+        </div>
+        <div class="catalog">
+          <h2 class="main__heading">Catalog</h2>
+          <div class="catalog__list">
+            <div class="catalog__item">
+              <div class="catalog__img">
+                <img src="./img/clths.png" alt="clths" />
+              </div>
+              <div class="catalog__title">
+                <a href="#" class="catalog__link">Clothes</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="catalog__img">
+                <img src="./img/snkrs.png" alt="clths" />
+              </div>
+              <div class="catalog__title">
+                <a href="#" class="catalog__link">Shoes</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="catalog__img">
+                <img src="./img/tents.png" alt="clths" />
+              </div>
+              <div class="catalog__title">
+                <a href="#" class="catalog__link">Tents</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="catalog__img">
+                <img src="./img/bckpck.png" alt="clths" />
+              </div>
+              <div class="catalog__title">
+                <a href="#" class="catalog__link">Backpacks</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contacts">
+          <h2 class="contacts__heading">Contacts</h2>
+          <div class="contacts__info">
+            <p class="contacts__desc">
+              Сontact us for details of product availability, you can also
+              arrange delivery.
+            </p>
+            <div class="contacts__contacts">
+              <div class="contacts__phone">
+                <a href="+4447 5566 2454">+4447 5566 2454</a>
+              </div>
+              <address class="contacts__mail">
+                <a href="mailto:gotrip@gmail.com"> gotrip@gmail.com </a>
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="container">
+        <div class="footer__info">
+          <ul class="footer__list">
+            <li><a class="footer__item" href="#">About us </a></li>
+            <li><a class="footer__item" href="#">Catalog</a></li>
+            <li><a class="footer__item" href="#">Contacts</a></li>
+          </ul>       
+        </div>
+        </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
