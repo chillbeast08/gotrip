@@ -6,8 +6,24 @@
   text-decoration: none;
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "rubik", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header__bg {
@@ -83,4 +99,122 @@ header button:hover {
   background: #fff;
   border: none;
   font-size: 18px;
+}
+.main__desc {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.main__heading {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #3e8989;
+  margin: 100px auto 50px auto;
+  text-align: center;
+}
+.main__desctxt {
+  font-size: 18px;
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  flex-basis: 40%;
+  flex-grow: 1;
+}
+.main__descpic {
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
+.main__descpic img {
+  min-width: 545px;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  display: block;
+}
+
+.catalog__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  height: max-content;
+}
+
+.catalog__img {
+  background: #efefef;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.catalog__item {
+  flex-basis: 23%;
+  text-align: center;
+}
+
+.catalog__link {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+
+.catalog__title {
+  width: 100%;
+}
+
+.catalog__item:hover .catalog__link {
+  color: #b4436c;
+  transition: 500ms;
+}
+.contacts {
+  margin: 100px auto 50px auto;
+}
+.contacts__heading {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #3e8989;
+}
+
+.contacts__info {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Rubik";
+  font-size: 20px;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.contacts__desc {
+  text-align: left;
+}
+.contacts__phone {
+  margin-bottom: 20px;
+  color: #000;
+}
+.contacts a {
+  color: #000;
+  font-style: normal;
+}
+.footer__bg {
+  background: #3e8989;
+}
+.footer__list {
+  display: flex;
+  gap: 30px;
+}
+.footer__item {
+  color: #fff;
+}
+.footer__info {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 83px;
+  justify-content: space-between;
 }
